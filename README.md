@@ -1,2 +1,2 @@
 # ML-Assignment
-Machine Learning Assignemnt for COMS3007
+Machine Learning Assignment for COMS3007
