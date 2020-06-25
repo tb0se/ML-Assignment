@@ -2,8 +2,8 @@ import numpy as np
 import re
 import pandas as pd
 
-# Read in data
-file_path = '/home/thabo/Documents/Bsc CompSci/Fourth Year/Semester 1/COMS3007 ML/Assignment/ML-Assignment/job_postings_excel.xlsx'
+# Read in data (Insert full file path if FileNotFound)
+file_path = 'job_postings_excel.xlsx'
 full_data = pd.read_excel(file_path)
 
 
