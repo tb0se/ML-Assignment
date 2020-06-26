@@ -38,6 +38,10 @@ clean_NaN['function'] = clean_NaN['function'].apply(lambda x: x.lower())
 # Ensure that salary range is a string value
 clean_NaN['salary_range'] = clean_NaN['salary_range'].astype(np.unicode)
 
+# Remove weird symbols from columns
+#company_profile = clean_NaN['company_profile'].to_numpy()
+#description = clean_NaN['description'] .to_numpy()
+
 # Create a new Excel with cleaner data
 clean_NaN.to_excel('/home/thabo/Documents/Bsc CompSci/Fourth Year/Semester 1/COMS3007 ML/Assignment/ML-Assignment/Job_Postings(clean).xlsx', sheet_name='Job_Postings')
 
